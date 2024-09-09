@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: jwtsec
+  datasource:
+    url: jdbc:postgresql://localhost:5432/jwtsecurity
+    username: postgres
+    password: 123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+jwt:
+  key: jCo++g1EnPlKqPOevTYyD4mwTKpGuzTPCLbUrCd9DP8VI6QxPfpvzQqwbHyHebwnrkjTilroZv9dp6LmwUFBodd93hcR+4k4t6MdhEpL7k65qI1PtvSPESbT4Bqf5KYpdpWWOEiQvjQ2w7/W8bhNJIq9/zAfevQunZ9+KDjV7U+xZpebICqk4BHjzDw7HVVX1XxVyugIbokcGnUg4TYM8Z91SjgF/hxjFphes6VE26YxfPfiEksObn93itBOlgfYgtyh92OZuOFLlCRVz3mMnrNVfs0a0VuQ8MIyI8rGnkemnv+94wcxhQM5XEPb60eMyUZqzUfQiFr2PRkbB7R0WA==
